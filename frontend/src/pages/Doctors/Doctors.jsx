@@ -37,7 +37,7 @@ const Doctors = () => {
       <Navbar bg="light" variant="light" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            SURFING WORLD Insurance STUDIO
+            BeHealth INSURANCE PARTNERS
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

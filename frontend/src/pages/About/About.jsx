@@ -15,7 +15,7 @@ const About = () => {
     <div>
       <Navbar bg="light" expand="lg" variant="light" fixed="top">
         <Container>
-          <Navbar.Brand href="/">SURFING WORLD Insurance STUDIO</Navbar.Brand>
+          <Navbar.Brand href="/">BeHealth INSURANCE PARTNERS</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -40,7 +40,7 @@ const About = () => {
       <div className="blackcontainer">
         <h1>ABOUT US</h1>
         <h3>
-          Welcome to Surfing World Insurance Studio! We are a premier Insurance studio
+          Welcome to BeHealth INSURANCE PARTNERS! We are a premier Insurance studio
           located in the heart of the city. With a team of highly skilled and
           experienced doctors, we specialize in creating unique and personalized
           Insurance designs that reflect your individual style and personality.
@@ -59,7 +59,7 @@ const About = () => {
           safety and well-being.
         </h3>
         <h3>
-          Visit Surfing World Insurance Studio today and let our talented doctors
+          Visit BeHealth INSURANCE PARTNERS today and let our talented doctors
           create a Insurance that you'll cherish for a lifetime. We look forward to
           welcoming you to our studio!
         </h3>

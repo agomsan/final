@@ -20,7 +20,7 @@ const Gallery = () => {
     <>
       <Navbar bg="light" variant="light" expand="lg" fixed="top">
         <Container>
-          <Navbar.Brand href="/">SURFING WORLD Insurance STUDIO</Navbar.Brand>
+          <Navbar.Brand href="/">BeHealth INSURANCE PARTNERS</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -35,7 +35,7 @@ const Gallery = () => {
           <img
             className="d-flex w-100"
             src="../../../img/image1.jpg"
-            alt="SURFING WORLD Insurance STUDIO"
+            alt="BeHealth INSURANCE PARTNERS"
             style={{ height: "600px", objectFit: "cover" }}
           />
         </Carousel.Item>
@@ -43,7 +43,7 @@ const Gallery = () => {
           <img
             className="d-flex w-100"
             src="../../../img/image2.jpg"
-            alt="SURFING WORLD Insurance STUDIO"
+            alt="BeHealth INSURANCE PARTNERS"
             style={{ height: "600px", objectFit: "cover" }}
           />
         </Carousel.Item>
@@ -51,7 +51,7 @@ const Gallery = () => {
           <img
             className="d-flex w-100"
             src="../../../img/image3.jpg"
-            alt="SURFING WORLD Insurance STUDIO"
+            alt="BeHealth INSURANCE PARTNERS"
             style={{ height: "600px", objectFit: "cover" }}
           />
         </Carousel.Item>
@@ -59,7 +59,7 @@ const Gallery = () => {
           <img
             className="d-flex w-100"
             src="../../../img/image4.jpg"
-            alt="SURFING WORLD Insurance STUDIO"
+            alt="BeHealth INSURANCE PARTNERS"
             style={{ height: "600px", objectFit: "cover" }}
           />
         </Carousel.Item>
@@ -67,7 +67,7 @@ const Gallery = () => {
           <img
             className="d-flex w-100"
             src="../../../img/image5.jpg"
-            alt="SURFING WORLD Insurance STUDIO"
+            alt="BeHealth INSURANCE PARTNERS"
             style={{ height: "600px", objectFit: "cover" }}
           />
         </Carousel.Item>

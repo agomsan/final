@@ -375,7 +375,7 @@ export default function UserProfile({ isAdmin }) {
               setShowAppointments(false);
             }}
           >
-            SURFING WORLD Insurance STUDIO
+            BeHealth INSURANCE PARTNERS
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

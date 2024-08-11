@@ -15,7 +15,7 @@ export default function Contact() {
     <div>
       <Navbar bg="light" expand="lg" variant="light" fixed="top">
         <Container>
-          <Navbar.Brand href="/">SURFING WORLD Insurance STUDIO</Navbar.Brand>
+          <Navbar.Brand href="/">BeHealth INSURANCE PARTNERS</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

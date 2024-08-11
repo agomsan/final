@@ -64,7 +64,7 @@ export default function Login() {
     <div className="login-body">
       <Navbar bg="light" variant="light" expand="lg" fixed="top">
         <Container>
-          <Navbar.Brand href="/">SURFING WORLD Insurance STUDIO</Navbar.Brand>
+          <Navbar.Brand href="/">BeHealth INSURANCE PARTNERS</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
