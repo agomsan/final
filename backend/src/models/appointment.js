@@ -31,7 +31,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Appointment.init({
     appointment_date: DataTypes.DATE,
-    user_id:DataTypes.INTEGER,
+    user_id: DataTypes.INTEGER,
     service_id: DataTypes.INTEGER,
     doctor_id: DataTypes.INTEGER,
   }, {

@@ -1,5 +1,5 @@
 const doctorController = {};
-const { Doctor } = require("../models/index");
+const { Doctors } = require("../models/index");
 
 doctorController.create = async (req, res) => {
   const { name, Bio, Specialty } = req.body;
@@ -73,7 +73,7 @@ doctorController.getById = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error retreived doctor",
+      message: "Error retreiving doctor",
       error: error.message,
     });
   }

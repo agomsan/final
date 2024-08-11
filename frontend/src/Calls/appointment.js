@@ -33,7 +33,7 @@ export const getUserAppointments = async (userId, token) => {
   };
 
   try {
-    const response = await fetch(`${BASE_URL}/appointments/user/${userId}`, options);
+    const response = await fetch(`${BASE_URL}appointments/user/${userId}`, options);
     const responseData = await response.json();
     console.log("Get user appointments response:", responseData);
     return responseData;

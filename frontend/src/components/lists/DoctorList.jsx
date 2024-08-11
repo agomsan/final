@@ -9,7 +9,7 @@ const DoctorList = ({
   editingDoctor,
   editDoctorForm,
   handleEditDoctorChange,
-  handleEditDoctorsubmit,
+  handleEditDoctorSubmit,
   setShowDoctorForm,
 }) => {
   return (
@@ -30,7 +30,7 @@ const DoctorList = ({
                 <Card.Text>{doctor.Bio}</Card.Text>
                 <Card.Subtitle className="mb-2 text-muted">{doctor.Specialty}</Card.Subtitle>
                 {editingDoctor === doctor.id && (
-                  <Form onSubmit={handleEditDoctorsubmit}>
+                  <Form onSubmit={handleEditDoctorSubmit}>
                     <Form.Group controlId="formName">
                       <Form.Label>NAME</Form.Label>
                       <Form.Control 
