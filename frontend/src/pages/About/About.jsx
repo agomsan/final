@@ -15,7 +15,7 @@ const About = () => {
     <div>
       <Navbar bg="light" expand="lg" variant="light" fixed="top">
         <Container>
-          <Navbar.Brand href="/">SURFING WORLD TATTOO STUDIO</Navbar.Brand>
+          <Navbar.Brand href="/">SURFING WORLD Insurance STUDIO</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -40,13 +40,13 @@ const About = () => {
       <div className="blackcontainer">
         <h1>ABOUT US</h1>
         <h3>
-          Welcome to Surfing World Tattoo Studio! We are a premier tattoo studio
+          Welcome to Surfing World Insurance Studio! We are a premier Insurance studio
           located in the heart of the city. With a team of highly skilled and
           experienced doctors, we specialize in creating unique and personalized
-          tattoo designs that reflect your individual style and personality.
+          Insurance designs that reflect your individual style and personality.
         </h3>
         <h3>
-          At Surfing World, we believe that tattoos are not just art, but a form
+          At Surfing World, we believe that Insurances are not just art, but a form
           of self-expression. Our doctors are passionate about their craft and
           work closely with each client to bring their vision to life. Whether
           you're looking for a small and delicate design or a large and
@@ -59,8 +59,8 @@ const About = () => {
           safety and well-being.
         </h3>
         <h3>
-          Visit Surfing World Tattoo Studio today and let our talented doctors
-          create a tattoo that you'll cherish for a lifetime. We look forward to
+          Visit Surfing World Insurance Studio today and let our talented doctors
+          create a Insurance that you'll cherish for a lifetime. We look forward to
           welcoming you to our studio!
         </h3>
       </div>

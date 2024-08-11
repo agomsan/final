@@ -12,19 +12,19 @@ const Doctors = () => {
       },
       {
           name: "Joseph",
-          bio: "Joseph is an amazing doctor in the placement of tattoo restoration",
+          bio: "Joseph is an amazing doctor in the placement of Insurance restoration",
       },
       {
           name: "Fran",
-          bio: "Fran is a talented tattoo doctor from Spain, his work has gained international recognition",
+          bio: "Fran is a talented Insurance doctor from Spain, his work has gained international recognition",
       },
       {
           name: "Lidya",
-          bio: "One of the most talented tattoo doctors in the world, her work has been recognized internationally, she is a specialist in fantasy tattoos",
+          bio: "One of the most talented Insurance doctors in the world, her work has been recognized internationally, she is a specialist in fantasy Insurances",
       },
       {
           name: "Demian",
-          bio: "Talented tattoo removal doctor born in Spain",
+          bio: "Talented Insurance removal doctor born in Spain",
       },
       {
           name: "Mariah",
@@ -37,7 +37,7 @@ const Doctors = () => {
       <Navbar bg="light" variant="light" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            SURFING WORLD TATTOO STUDIO
+            SURFING WORLD Insurance STUDIO
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

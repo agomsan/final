@@ -91,7 +91,7 @@ export default function Register() {
     <div className="body-register">
       <Navbar bg="light" variant="light" expand="lg" fixed="top">
         <Container>
-          <Navbar.Brand href="/">SURFING WORLD TATTOO STUDIO</Navbar.Brand>
+          <Navbar.Brand href="/">SURFING WORLD Insurance STUDIO</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

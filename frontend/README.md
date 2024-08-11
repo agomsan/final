@@ -1,12 +1,12 @@
-# Frontend Tattoo
-Welcome to the Frontend Tattoo project! This repository contains the frontend code for our tattoo booking application.
+# Frontend Insurance Application
+Welcome to the Frontend Insurance project! This repository contains the frontend code for our Insurance booking application.
 
 ## Installation
 
 To get started with the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/agomsan/frontend-tattoo`
-2. Navigate to the project directory: `cd frontend-tattoo`
+1. Clone the repository: `git clone https://github.com/agomsan/final/'
+2. Navigate to the project directory: `cd final
 3. Install the dependencies: `npm install`
 
 ## Usage

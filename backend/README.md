@@ -1,4 +1,4 @@
-# REST API: backend-tattoo (tattoo studio project)
+# REST API: backend-Insurance (Insurance studio project)
 <img src="./img/Logo.gif" width="1000"  alt="logo"/>
 ## Tabla de contenidos :file_folder:
 
@@ -14,7 +14,7 @@
 
  ## 1. <a id="descripción">Descripción</a>
 
-Este proyecto consiste en crear una REST API para un estudio de tatuajes que permita a los diferentes tipos de usuarios ver sus citas, modificar sus datos existentes, crear nuevod uduarios, y en caso de administradores cabiar roles de otros usuarios
+Este proyecto consiste en crear una REST API para un seguro médico que permita a los diferentes tipos de usuarios ver sus citas, modificar sus datos existentes, crear nuevod uduarios, y en caso de administradores cabiar roles de otros usuarios
 
 ## 2. <a id="stack">Stack</a>
 - ORM: ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
@@ -104,7 +104,7 @@ Para la instalación del proyecto, siga los siguientes pasos en el correspondien
   
 ## 8. <a id="link">Link</a> 
 
-https://github.com/agomsan/newbackend.git
+https://github.com/agomsan/final.git
 
 ## 9. <a id="desarrollador">Desarrollador</a> :wave:
 
