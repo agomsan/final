@@ -1,0 +1,108 @@
+body {
+    background-image: url("../../../img/Logo.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-self: center;
+    align-content: center;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .contact-body {
+    font-family: Arial, sans-serif;
+    background-image: url(../../../img/login.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    filter: blur(8px);
+    opacity: 0.4;
+    z-index: -1;
+  }
+  
+  .contact-container {
+    background-color: rgba(174, 174, 174, 0);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .send-btn {
+    margin-top: -10px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background-color: #6f6b56;
+  }
+  
+  .send-msg {
+    margin-top: 10px;
+    color: #ff0019;
+    font-size: 14px;
+  }
+  
+  .home-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .home-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .register-container {
+      padding: 10px;
+    }
+  
+    .send-btn {
+      width: 100%;
+    }
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  

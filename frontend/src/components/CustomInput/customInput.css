@@ -1,0 +1,15 @@
+.custom-input-design {
+    width: 15em;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.focused {
+    border-color: rgba(90, 90, 90, 0.6) ;
+    box-shadow: 0 0 0 0.2rem rgba(244, 226, 240, 0.6)   ;
+}

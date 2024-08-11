@@ -46,7 +46,7 @@ Este proyecto consiste en crear una REST API para un estudio de tatuajes que per
 | PUT    | `/api/users/profile`                   | Modificar nuestro perfil     |             |
 | DELETE | `/api/users/:id`                       | Borrar usuario               | super_admin |
 | PUT    | `/api/users/:id/role`                  | Cambiar rol                  | super_admin |
-| GET    | `/api/users/doctor`                    | Listado doctoras             | super_admin |
+| GET    | `/api/users/doctor`                    | Listado doctores             | super_admin |
 
 
 ### Appointments
@@ -76,7 +76,7 @@ Para la instalación del proyecto, siga los siguientes pasos en el correspondien
 
 - Abre tu terminal e introduce el siguiente comando:
 ```sh
-    git clone https://github.com/agomsan/backend-tattoo
+    git clone https://github.com/agomsan/final
 ```
 - Abre el proyecto que acabas de clonar en el editor de código de tu preferencia
 - Ejecuta el siguiente comando para instalar los paquetes necesarios para su funcionamiento:

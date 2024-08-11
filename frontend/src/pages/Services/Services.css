@@ -1,0 +1,23 @@
+/* Services.css */
+
+/* Set the background color to black */
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Set the text color to white */
+h1, h2, h3, p {
+    color: rgb(89, 60, 105);
+}
+
+.container {
+    border: 1px solid rgb(0, 0, 0);
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+
+a:hover {
+    color: rgb(152, 103, 174);
+}  }

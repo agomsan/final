@@ -1,0 +1,11 @@
+about-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackcontainer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
