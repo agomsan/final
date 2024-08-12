@@ -14,24 +14,24 @@ module.exports = {
         },
         {
           id: 2,
-          service_name: "Catalog Insurance",
-          description: "Select an option from out Insurance catalog",
+          service_name: "Skin issues",
+          description: "Select an treatment for your skin for free",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           id: 3,
-          service_name: "Transform Existing Insurance",
+          service_name: "Foot issues",
           description:
-            "We know that sometimes you want to change a Insurance for any reason, we can help you with that",
+            "We can help you for make your foot look and work perfectly again",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           id: 4,
-          service_name: "Balms and similar articles",
+          service_name: "Lactose intolerance solutions",
           description:
-            "Some customers things a Insurance does not need any special treatment, but we know that is not true, we have the best products for you to protect your Insurances",
+            "With our help included in our insurance anual suscription we can help you to solve your lactose intolerance",
           createdAt: new Date(),
           updatedAt: new Date(),
         },

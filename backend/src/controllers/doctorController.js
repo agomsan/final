@@ -12,7 +12,7 @@ doctorController.create = async (req, res) => {
       });
       return;
     }
-    await Doctor.create({
+    await Doctors.create({
       name,
       Bio,
       Specialty,
@@ -20,12 +20,12 @@ doctorController.create = async (req, res) => {
 
     res.status(200).json({
       success: true,
-      message: "Doctor created successfully",
+      message: "Artist created successfully",
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error creating Doctor",
+      message: "Error creating artist",
       error: error.message,
     });
   }
@@ -38,13 +38,13 @@ doctorController.getAll = async (req, res) => {
     });
     res.status(200).json({
       success: true,
-      message: "Doctor retreived successfully",
+      message: "Artist retreived successfully",
       data: doctors,
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error retreiving doctor",
+      message: "Error retreived artist",
       error: error.message,
     });
   }
@@ -62,7 +62,7 @@ doctorController.getById = async (req, res) => {
     if (!doctor) {
       res.status(404).json({
         success: true,
-        message: "Doctors not found",
+        message: "Artists not found",
       });
       return;
     }
@@ -73,7 +73,7 @@ doctorController.getById = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error retreiving doctor",
+      message: "Error retreived artist",
       error: error.message,
     });
   }
@@ -92,12 +92,12 @@ doctorController.update = async (req, res) => {
 
     res.status(200).json({
       success: true,
-      message: "Doctors update successfully",
+      message: "Artists update successfully",
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error updating doctor",
+      message: "Error updating artist",
       error: error.message,
     });
   }
@@ -116,19 +116,19 @@ doctorController.delete = async (req, res) => {
     if(deleteResult === 0) {
       res.status(404).json({
         success: true,
-        message: "doctor not found",
+        message: "Artist not found",
       });
       return;
     }
 
     res.status(200).json({
       success: true,
-      message: "Doctors deleted successfully",
+      message: "Artists deleted successfully",
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error deleting doctor",
+      message: "Error deleting artist",
       error: error.message,
     });
   }

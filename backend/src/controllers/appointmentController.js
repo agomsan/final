@@ -1,5 +1,5 @@
 const appointmentController = {};
-const { User, Appointment, Service, Doctor } = require("../models/index");
+const { User, Appointment, Service, Doctors } = require("../models/index");
 
 appointmentController.create = async (req, res) => {
   const { appointment_date, user_id, service_id, doctor_id } = req.body;
@@ -114,7 +114,7 @@ appointmentController.getById = async (req, res) => {
           attributes: ['service_name'],
         },
         {
-          model: Doctor,
+          model: Doctors,
           as: "doctor",
           attributes: ['name'],
         },
@@ -155,7 +155,7 @@ appointmentController.getAllAppointments = async (req, res) => {
           attributes: ['service_name'],
         },
         {
-          model: Doctor,
+          model: Doctors,
           as: "doctor",
           attributes: ['name'],
         },
@@ -197,7 +197,7 @@ appointmentController.getUserAppointments = async (req, res) => {
           attributes: ['service_name'],
         },
         {
-          model: Doctor,
+          model: Doctors,
           as: "doctor",
           attributes: ['name'],
         },

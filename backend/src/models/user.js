@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
 
       // lots to one association
       User.hasMany(models.Appointment, {
-        as: "appointments",
+        as: "appointment",
         foreignKey: "user_id",
       });
     }
