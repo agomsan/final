@@ -37,7 +37,7 @@ const About = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className="blackcontainer">
+      <div className="container">
         <h1>ABOUT US</h1>
         <h3>
           Welcome to BeHealth INSURANCE PARTNERS! We are a premier Insurance studio

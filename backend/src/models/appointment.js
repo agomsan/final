@@ -36,7 +36,7 @@ module.exports = (sequelize, DataTypes) => {
     doctor_id: DataTypes.INTEGER,
   }, {
     sequelize,
-    modelName: 'Appointments',
+    modelName: 'Appointment',
     tableName: 'appointments'
   });
   return Appointment;
